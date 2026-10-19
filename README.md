@@ -5,7 +5,7 @@ Display und Hardware zugänglich machen. Danach reicht ein `import pbc`, um mit
 wenigen Zeilen etwas auf den Schirm zu bringen.
 
 ```bash
-./build.sh              # -> ../dist/micropython-PBC_PLUS.uf2
+./build.sh              # -> dist/micropython-PBC_PLUS.uf2
 ```
 
 ## Warum hier so wenig liegt
@@ -71,3 +71,10 @@ listet sie zum Starten auf.
 
 MIT — sowohl MicroPython selbst als auch diese Board-Portierung. Siehe
 `LICENSE`.
+
+## Herkunft und Download
+
+Teil der Sammlung für den PicoBoy Color Plus; Übersicht und
+Hardware-Referenz: [pbc-plus](https://github.com/hcl1981/pbc-plus). Die fertige Firmware
+(micropython-PBC_PLUS.uf2) liegt unter **Releases**. `./build.sh` baut nach `dist/`;
+Werkzeuge und SDK siehe [`docs/BAUEN.md`](docs/BAUEN.md).

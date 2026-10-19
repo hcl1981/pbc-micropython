@@ -11,11 +11,11 @@
 # Aufruf:   ./build.sh          bauen
 #           ./build.sh clean    Bauordner löschen und neu bauen
 #
-# Ergebnis: ../dist/micropython-PBC_PLUS.uf2
+# Ergebnis: dist/micropython-PBC_PLUS.uf2
 #
 set -uo pipefail
 HIER="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-. "${HIER}/../tools/pbc_build.sh"
+. "${HIER}/tools/pbc_build.sh"
 
 # Ordner trägt die Version: Nach einem Wechsel von PBC_MPY_TAG wird frisch
 # geholt, statt stillschweigend einen älteren Stand weiterzubenutzen.
